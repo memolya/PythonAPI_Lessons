@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/AdventOfCode_2023/.idea/AdventOfCode_2023.iml" filepath="$PROJECT_DIR$/../PycharmProjects/AdventOfCode_2023/.idea/AdventOfCode_2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/Stepik-Python-lessons/.idea/Lessons.iml" filepath="$PROJECT_DIR$/../PycharmProjects/Stepik-Python-lessons/.idea/Lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonAPI.iml" filepath="$PROJECT_DIR$/.idea/PythonAPI.iml" />
+    </modules>
+  </component>
+</project>
