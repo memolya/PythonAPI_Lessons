@@ -9,8 +9,18 @@ def use_again():
         print('Спасибо, что использовали калькулятор.')
         exit()
 
-def is_valid(a, action, b):
-    if a.isdigit() and b.isdigit() and action in '+-*/':
+def is_valid_a(a):
+    if a.isdigit():
+        return True
+    return False
+
+def is_valid_action(action):
+    if action in '+-*/':
+        return True
+    return False
+
+def is_valid_b(b):
+    if b.isdigit():
         return True
     return False
 
@@ -18,10 +28,17 @@ def calc():
 
     while True:
         a = input('Введите первое значение: ')
-        action = input('Введите знак действия (+, -, *, /): ')
-        b = input('Введите второе значение: ')
+        if not is_valid_a(a):
+            print('Пожалуйста, введите корректные данные.')
+            continue
 
-        if not is_valid(a, action, b):
+        action = input('Введите знак действия (+, -, *, /): ')
+        if not is_valid_action(action):
+            print('Пожалуйста, введите корректные данные.')
+            continue
+
+        b = input('Введите второе значение: ')
+        if not is_valid_b(b):
             print('Пожалуйста, введите корректные данные.')
             continue
 
