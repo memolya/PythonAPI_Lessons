@@ -15,7 +15,7 @@ def is_valid_a(a):
     return False
 
 def is_valid_action(action):
-    if action in '+-*/':
+    if action == '+' or action == '-' or action == '*' or action == '/':
         return True
     return False
 
