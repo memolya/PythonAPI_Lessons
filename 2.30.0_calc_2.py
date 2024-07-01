@@ -2,7 +2,7 @@ def use_again():
     print('Посчитать еще? Введите "д"/"н": ')
 
     answer = input()
-    if answer in 'да':
+    if answer == 'да':
         calc()
 
     else:
