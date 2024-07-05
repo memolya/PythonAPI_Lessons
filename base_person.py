@@ -25,3 +25,7 @@ class Person():
         """Изменение веса человека"""
         self.weight = kg
 
+# man = Person('Alex', 30, 180)
+# man.update_weight(90)
+# man.description_person()
+# man.get_weight()

@@ -18,5 +18,7 @@ class Warrior(Person):
         """Переопределение метода родителя"""
         #f-string notation позволяет передавать int в конкатенацию строки без изменения типа данных на str
         description = f'Этого человека зовут {self.name}, ему {self.age} лет, его заряд ярости {self.rage}'
-        #print(f'{description}')
-        return f'{description}'
+        print(f'{description}')
+
+war = Warrior('Fjfj', 30, 200)
+war.description_person()
