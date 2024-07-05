@@ -20,5 +20,5 @@ class Car():
                        f'Мотор {self.engine}. Стоимость - {self.price}. Пробег - {self.mileage}. Количество колес - {self.wheels}.')
         print(f'{description}')
 
-# car = Car('Juke', 2010, 100, 1500000, 75000, 4)
-# car.description_car()
+car = Car('Juke', 2010, 100, 1500000, 75000, 4)
+car.description_car()
