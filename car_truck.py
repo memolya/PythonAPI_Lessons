@@ -12,11 +12,12 @@ class CarTruck(Car):
         super().__init__(model, year, engine, price, mileage, wheels)
         self.wheels = 8
 
-    def description_car(self):
-        """Переопределение метода родителя"""
-        description = (f'Машина называется {self.model}, произведена в {self.year}. '
-                       f'Мотор {self.engine}. Стоимость - {self.price}. Пробег - {self.mileage}. Количество колес - {self.wheels}.')
-        print(f'{description}')
+    #можно не создавать, так как наследуется от родителя
+    # def description_car(self):
+    #     """Переопределение метода родителя"""
+    #     description = (f'Машина называется {self.model}, произведена в {self.year}. '
+    #                    f'Мотор {self.engine}. Стоимость - {self.price}. Пробег - {self.mileage}. Количество колес - {self.wheels}.')
+    #     print(f'{description}')
 
 truck = CarTruck('Nissan Atlas', 2023, 150, 8000000, 200000, 8)
 truck.description_car()
